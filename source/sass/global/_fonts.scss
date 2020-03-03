@@ -1,23 +1,39 @@
 @font-face {
-  font-family: "RobotoSlabRegular";
-  src: url("../../fonts/RobotoSlab-Regular.woff2") format("woff2"),
-    url("../../fonts/RobotoSlab-Regular.woff") format("woff");
+  font-family: "RobotoLight";
+  src: url("../../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../../fonts/Roboto-Light.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "RalewayBold";
-  src: url("../../fonts/Raleway-Bold.woff2") format("woff2"),
-    url("../../fonts/Raleway-Bold.woff") format("woff");
+  font-family: "RobotoRegular";
+  src: url("../../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../../fonts/Roboto-Regular.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "RalewayRegular";
-  src: url("../../fonts/Raleway-Regular.woff2") format("woff2"),
-    url("../../fonts/Raleway-Regular.woff") format("woff");
+  font-family: "RobotoMedium";
+  src: url("../../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../../fonts/Roboto-Medium.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../../fonts/Roboto-Bold.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YesevaOneRegular";
+  src: url("../../fonts/YesevaOne-Regular.woff") format("woff2"),
+    url("../../fonts/YesevaOne-Regular.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
