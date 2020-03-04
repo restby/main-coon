@@ -1,12 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
   @include ma-pa-reset;
-  font-family: "RobotoSlabRegular", "Arial", sans-serif;
-  font-size: 18px;
-  line-height: 48px;
-  font-weight: 400;
-  color: $text-color;
-  letter-spacing: 0.05em;
-  background-color: $white-color;
+  min-width: 320px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  color: $white-color;
+  // letter-spacing: 0.05em;
+  background-color: $bgc-color;
   position: relative;
 }
 
@@ -15,26 +20,23 @@ img {
   height: auto;
 }
 
-* {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-.link {
-  display: block;
-  margin: 0 auto;
-  width: 202px;
-  min-height: 47px;
-  background-color: $main-color;
-  font-size: 14px;
-  color: $white-color;
+a {
   text-decoration: none;
-  text-align: center;
+  color: $white-color;
 }
 
 .section-title {
   @include ma-pa-reset;
   text-align: center;
-  font-family: "RalewayBold", "Arial", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
+  font-family: "YesevaOne", "Georgia", serif;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  color: $white-color;
 }
