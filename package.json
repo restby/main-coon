@@ -1,8 +1,8 @@
 {
   "name": "main-coon",
   "version": "1.0.0",
-  "description": "main-coon-adaptive",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": ".eslintrc.js",
   "dependencies": {},
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
@@ -27,7 +27,7 @@
     "gulp-webp": "^4.0.1",
     "npx": "^10.2.2",
     "posthtml-include": "^1.4.0",
-    "stylelint": "^13.2.0",
+    "stylelint": "^13.2.1",
     "stylelint-config-htmlacademy": "^0.1.4",
     "stylelint-order": "^4.0.0",
     "stylelint-rational-order-plugin": "^1.0.2"
@@ -41,6 +41,8 @@
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "edit": "gulp edit",
     "start": "gulp start"
   },
   "editorconfig-cli": [
@@ -52,7 +54,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/restby/main-coon.git"
+    "url": "git+https://github.com/restby/main-coon.git"
   },
   "author": "restby",
   "license": "ISC",
